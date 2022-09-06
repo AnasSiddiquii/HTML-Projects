@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        #container{
+            width: 100%;
+            height: auto;
+
+        }
+        
+        body{
+            background-image: url(../images/img1.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        
+        
+        
+        /* header */
+        #header{
+            background-color: rgba(0, 0, 0, 0.2);
+            overflow: auto;    
+        }
+        
+        #header h1{
+            
+            color: wheat;
+            display: inline-flex;
+            padding-top: 15px;
+            padding-left: 50px;
+        }
+        
+        #menu{
+            list-style: none;
+            display: inline-flex;
+            padding: 25px;
+            text-decoration: none;
+            float: right;
+            margin-right: 25px;
+        }
+        
+        #menu a{
+            color: wheat;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 15px;
+        }
+        
+        #menu a:hover{
+            color: #218c74;
+            border: 2px solid #218c74;
+            border-radius: 12px;
+            font-size: 18px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <!-- header -->
+        <div id="header">
+            <h1>Contact Us</h1>
+            <ul  id="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

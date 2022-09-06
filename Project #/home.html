@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" login="IE=edge">
+    <meta name="viewport" login="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        #container{
+            width: 100%;
+            height: auto;
+
+        }
+        
+        body{
+            background-image: url(../images/img1.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        
+        
+        
+        /* header */
+        #header{
+            background-color: rgba(0, 0, 0, 0.2);
+            overflow: auto;    
+        }
+        
+        #header h1{
+            
+            color: wheat;
+            display: inline-flex;
+            padding-top: 15px;
+            padding-left: 50px;
+        }
+        
+        #menu{
+            list-style: none;
+            display: inline-flex;
+            padding: 25px;
+            text-decoration: none;
+            float: right;
+            margin-right: 25px;
+        }
+        
+        #menu a{
+            color: wheat;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 15px;
+        }
+        
+        #menu a:hover{
+            color: #218c74;
+            border: 2px solid #218c74;
+            border-radius: 12px;
+            font-size: 18px;
+            padding: 10px;
+        }
+        
+        /* login */
+        #login{
+            margin-left: 50px;
+            margin-top: 50px;
+            padding: 40px 30px;
+            padding-bottom: 15px;
+            display: inline-grid;
+            row-gap: 5px;
+            border-radius: 15px;
+            box-shadow: 10px 10px 10px;
+            background: linear-gradient(to bottom right, #8d5931, #cd965e);
+        }
+        
+        #login input{
+            padding: 10px; 
+            border-radius: 10px;
+            font-size: 12px;
+            border: 2px outset gray;
+            background-color: whitesmoke;
+        }
+        
+        #login button{
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #218c74;
+            border: 2px outset gray;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        
+        #btn a{
+            color: wheat;
+            text-decoration: none;
+        }
+
+        #fp{
+            margin-top: -28px;
+            margin-left: 5px;
+        }
+
+        #fp a{
+            font-size: 10px;
+            text-decoration: none;
+        }
+        
+        #su{
+            text-align: center;
+
+        }
+
+        #su a{
+            font-size: 12px;
+            text-decoration: none;
+        
+        }
+
+        /* content */
+        #content{
+            padding: 15px 50px;
+            color: wheat;
+            margin-top: 30px;
+        }
+        
+
+        /* footer */
+        #footer img{
+            margin: 50px 0;
+            width: 100%;
+            height: auto;
+
+
+        }
+
+        #footer p{
+            font-size: 13px;
+            text-align: center;
+            background-color: #2d3436;
+            color: wheat;
+            padding: 13px;
+        }
+
+        </style>
+
+</head>
+<body>
+    <div id="container">
+
+        <!-- header -->
+        <div id="header">
+            <h1>Home</h1>
+            <ul  id="menu">
+                <li><a href="course.html">Course</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- login -->
+        <div id="login">
+            <input type="text" id="input1" placeholder="User Name"><br>
+            <input type="password" id="input2" placeholder="Password"><br>
+            <p id="fp"><a href="#">forgot password?</a></p>
+            <button id="btn"><a href="#">Login</a></button>
+            <p id="su"><a href="#">signup</a></p>
+        </div>
+
+        <!-- content -->
+        <div id="content">
+            <h2>Online Exam Portal</h2><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, corrupti, suscipit impedit quasi eum, cupiditate non consequuntur voluptatem tempora a vitae repudiandae recusandae. Repellat cupiditate iure inventore consequatur veritatis maiores.</p>
+        </div>
+
+        <!-- footer1 -->
+        <div id="footer">
+            <img src="../images/img2.png" alt="">
+            <p>Copyright 1999-2022 by Anas. All Rights Reserved.</p>
+
+        </div>
+
+  </div>
+</body>
+</html>
